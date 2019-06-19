@@ -22,3 +22,6 @@ set expendtab
 set ts=4, sys=4  
 set shiftwidth=4  
 set laststatus=2  
+
+set textwidth=90
+set colorcolumn=+1
