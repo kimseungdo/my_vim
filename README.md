@@ -1,9 +1,9 @@
 # my_vim
 내 빔이다
 
-vi ~/.vimrc
+##vi ~/.vimrc
 
-set nu
-set ai
-set cindent
-set mouse=a
+set nu  
+set ai  
+set cindent  
+set mouse=a  
