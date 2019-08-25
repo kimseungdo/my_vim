@@ -24,4 +24,19 @@ set shiftwidth=4
 set laststatus=2  
 
 set textwidth=90
-set colorcolumn=+1
+set colorcolumn=+1  
+
+## pip list  
+pip install -m ~~~  
+opencv-python  
+Cython
+jupyter  
+keras  
+lxml  
+matplotlib  
+numpy  
+pandas  
+pollow  
+pyqt5  
+tensorflow  
+selenium  
