@@ -25,7 +25,14 @@ set laststatus=2
 
 set textwidth=90  
 set colorcolumn=+1  
+  
+## ubuntu && debian pt5 tool chain  
+build-essential  
+apt-get purge --auto-remove libqt4-dev //기존 qt4 제거  
+apt-get install qt4-qmake libqt4-dev // qt4 설치
+apt-get install gcc-arm-none-eabi binutils-arm-none-eabi gdb-arm-none-eabi openocd // arm 설치  
 
+  
 ## pip list  
 pip install -m ~~~  
 opencv-python  
