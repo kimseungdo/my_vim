@@ -13,17 +13,17 @@
 ## 설정경로 : vi ~/.vimrc
 
 set nu  
-set autoindent
-set smartindent
+set autoindent  
+set smartindent  
 set cindent  
 set mouse=a  
 set expendtab  
 
-set ts=4, sys=4  
+set ts=4    
 set shiftwidth=4  
 set laststatus=2  
 
-set textwidth=90
+set textwidth=90  
 set colorcolumn=+1  
 
 ## pip list  
