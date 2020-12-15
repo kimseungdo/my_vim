@@ -13,30 +13,30 @@
 ## 설정경로 : vi ~/.vimrc
 set encoding=utf-8
 
-set nu
-set autoindent
-set autowrite
-set autoread
-
-set cindent
-set smartindent
-set mouse=a
-
-set ts=4
-set shiftwidth=4
-set laststatus=2
-
-et colorcolumn=+1
-
-set ruler
-set hlsearch
-set incsearch
-set showmatch
-
-syntax on
-set foldmethod=indent
-set foldnestmax=1
+set nu  
+set autoindent  
+set autowrite  
+set autoread  
   
+set cindent  
+set smartindent  
+set mouse=a  
+
+set ts=4  
+set shiftwidth=4  
+set laststatus=2  
+  
+set colorcolumn=+1  
+  
+set ruler  
+set hlsearch  
+set incsearch  
+set showmatch  
+  
+syntax on  
+set foldmethod=indent  
+set foldnestmax=1  
+    
 ## ubuntu && debian pt5 tool chain  
 build-essential  
 apt-get purge --auto-remove libqt4-dev //기존 qt4 제거  
