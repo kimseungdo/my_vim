@@ -11,20 +11,31 @@
 [^7]:인용을 하려면 문장 앞에 >를 붙이면 됩니다.    
 
 ## 설정경로 : vi ~/.vimrc
+set encoding=utf-8
 
-set nu  
-set autoindent  
-set smartindent  
-set cindent  
-set mouse=a  
-set expendtab  
+set nu
+set autoindent
+set autowrite
+set autoread
 
-set ts=4    
-set shiftwidth=4  
-set laststatus=2  
+set cindent
+set smartindent
+set mouse=a
 
-set textwidth=90  
-set colorcolumn=+1  
+set ts=4
+set shiftwidth=4
+set laststatus=2
+
+et colorcolumn=+1
+
+set ruler
+set hlsearch
+set incsearch
+set showmatch
+
+syntax on
+set foldmethod=indent
+set foldnestmax=1
   
 ## ubuntu && debian pt5 tool chain  
 build-essential  
